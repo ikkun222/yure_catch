@@ -30,4 +30,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out # Directory containing the built static files
           publish_branch: gh-pages # The branch to publish to
+          clean: true # Clean the publish branch before deploying
           cname: # Optional: Your custom domain if you have one
